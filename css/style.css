@@ -1,0 +1,789 @@
+/*Global*/
+*{
+	margin: 0;
+	padding: 0;
+}
+section{
+	padding: 80px 0;
+}
+       /*topBar header start*/
+
+
+body{
+	font-family: 'Work Sans', sans-serif;
+	font-size: 16px;
+
+}
+h1,h2,h3,h4,h5,h6 a{
+	    font-family: 'Oswald', sans-serif; 
+	    font-weight: 500;
+}
+.topBarMain {
+    background-color: #F5F5F5;
+}
+
+.container {
+    width: 1140px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+}
+.topbarWrapper {
+    overflow: hidden;
+}
+.phone {
+    width: 200px;
+    float: left;
+    padding: 15px 10px;
+    border-left: 1px solid #0074E8;
+}
+.email {
+  width: 757px;
+  float: left;
+  padding: 15px 10px;
+  border-left: 1px solid #0074E8;
+
+
+}
+.social {
+  width: 140px;
+  float: left;
+  transition: 0.3s;
+}
+.social a {
+    display: block;
+    float: left;
+    padding: 15px;
+    border-right: 1px solid #0074E8;
+    color: #7F7F7F;
+}
+.social a:first-child {
+	border-left: 1px solid #2b2b;
+}
+.social i:hover {
+	color: #FF5200;
+}
+.phone i {
+  color: #FC6D06;
+}
+.email i {
+  color: #FC6D06;
+}
+   /*topBar header end */
+
+
+
+ 	/*Bottom header start*/
+
+.primaryWrapper {
+    overflow: hidden;
+    width: 100%;
+}
+
+.logo {
+    width: 150px;
+    float: left;
+    margin-top: 14px;
+}
+.menu {
+    width: 990px;
+    float: left;
+}
+.mainmenuItem {
+    list-style: none;
+    float: right;
+}
+ul.mainmenuItem li {
+    float: left;
+}
+ul.mainmenuItem li a {
+    text-decoration: none;
+    position: relative;
+	font-size: 15px;
+	display: block;
+	padding: 30px 15px;
+	letter-spacing: .05em;
+	line-height: 30px;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #000;
+	transition: 0.5s;
+}
+ul.mainmenuItem li a:hover {
+	color: #FF5200
+}
+ 	/*Bottom header end */
+
+
+/*Slider section  start*/
+#homeSlider{
+	background:url(../imges/slide-2.jpg);
+	background-repeat: no-repeat;
+	background-position: 100%;
+	padding: 0;
+}
+.sliderContent {
+  color: white;
+  width: 600px;
+}
+.sliderContent h1 {
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  float:left;
+  margin-top: 84px;
+}
+.sliderContent p {
+  font-weight: 600;
+  line-height: 25px;
+  width: 490px;
+  margin-bottom: 30px;
+}
+
+#sliderButton {
+  background: #FF5201;
+  color: white;
+  border: none;
+  padding: 18px 30px;
+  font-size: 15px;
+  font-weight: 503;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  border-radius: 3px;
+  margin-bottom: 120px
+}
+#sliderButton:hover {
+	background-color: #252525;
+	transition: 0.5s;
+}
+.sliderNavigation{
+width: 50px;
+margin: auto;
+padding: 30px 0;
+}
+.sliderNavigation span {
+width: 10px;
+height: 10px;
+border: 3px solid #FF5200;
+background-color: #FF5200;
+background: transparent;
+border-radius: 100%;
+display: block;
+cursor: pointer;
+float: left;
+margin-left: 5px
+}
+.sliderNavigation span:last-child {
+	background-color: #FF5200;
+	border-color: #FF5200
+}
+/*Slider section  end*/
+
+
+/*Services section  start*/
+#services{
+	background-color: #F5F6F6
+}
+
+.ServicesBoxWrapper {
+  overflow: hidden;
+}
+.singleBox {
+    width: 231px;
+    background-color: white;
+    padding: 15px;
+    float: left;
+    margin-right: 24px;
+    transition: 0.5s;
+}
+.singleBox:hover{
+	background-color: #FF5200;
+	color: white !important;
+	cursor: pointer;
+
+}
+.singleBox i{color: #FF5200}
+.singleBox:hover h2,i {
+	color: #3d3a3a;
+}
+.singleBox:hover .ServicesBoxIcon i{
+	color: white;
+}
+.singleBox:hover i.fas.fa-arrow-right{
+color: white !important;
+}
+.singleBox:hover .ServicesBoxLink a{
+	color: white !important;
+}
+.ServicesBoxTitle {
+  text-align: center;
+  letter-spacing: -1.5px;
+  color: #495057;
+  text-transform: uppercase;
+  line-height: 30px;
+  font-size: 20px;
+  margin: 20px 0;
+}
+.ServicesBoxTitle h2 {
+  font-size: 26px;
+  width: 153px;
+  margin: auto;
+}
+.ServicesBoxIcon {
+  color: #FF5200;
+  font-size: 52px;
+  line-height: 1em;
+  text-align: center;
+  margin: 30px;
+}
+
+.ServicesBoxDesc {
+  text-align: center;
+  margin: 30px 0;
+}
+.ServicesBoxLink {
+  text-align: center;
+  margin:30px 0px;
+}
+.ServicesBoxLink a {
+  text-decoration: none;
+  color: #FF0000;
+  font-weight: 500;
+  margin: 30px 0px;
+}
+.sboxactive{
+	background-color: #fb5200;
+	color: white;
+}
+.singleBox i.fas.fa-arrow-right{color:#fb5200 !important }
+.sboxactive h2{color: white;}
+.sboxactive i {color: white;}
+.sboxactive a {color: white;}
+.sboxactive i.fas.fa-arrow-right{color: white !important;}
+
+/*Services section  end*/
+
+/* Work With Our Teams */
+.tewamcontents {
+  overflow: hidden;
+}
+
+.teamimg img {
+  max-width: 100%;
+}
+.teamimg {
+  width: 535px;
+  float: left;
+}
+.teamdetails {
+  width: 535px;
+  float: right;
+}
+.titledes h2 {
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.titledes p {
+  color: #403131;
+  line-height: 25px;
+  margin-bottom: 25px
+}
+
+
+.teamfacilatis ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 260px;
+  float: left;
+}
+.teamfacilatis ul li {
+  line-height: 40px;
+  transition: 0.5s;
+}
+
+.teamfacilatis ul li a {
+  text-decoration: navajowhite;
+  font-weight: 500;
+}
+
+.teamfacilatis {
+  overflow: hidden;
+  margin-bottom: 35px;
+}
+
+.teamfacilatis ul li a i {
+  color: #444;
+  font-size: 12px;
+}
+.temcontactbtn a {
+  text-decoration: none;
+  background-color: #FF5200;
+  padding: 15px 30px;
+  color: #fff;
+  font-weight: 700;
+  font-size: large;
+  border-radius: 3px;
+ }
+.temcontactbtn:hover a{
+  color: #ffffff;
+  background-color: #252525;
+}
+.teamfacilatis ul li:hover i{
+  color: #FF5200;
+}
+.teamfacilatis ul li:hover a{
+  color: #FF5200;
+}
+/* Work With Our Teams */
+/* count section start */
+#whychoseus{
+  background:linear-gradient(#000000a8,#0006) , url(http://themelazer.info/html/brigate/image/intro/why-choose-us1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+/* count section end */
+
+.iconwrapper{
+  overflow: hidden;
+}
+.singleicon {
+  color: #fff;
+  text-align: center;
+  width: 250px;
+  float: left;
+  margin-right: 34px;
+}
+
+
+.sicon i {
+  color: #fff;
+  font-size: 35px;
+}
+.sicon h2 {
+  font-size: 45px;
+  font-weight: 900;
+  margin: 0px;
+}
+.sicon h4 {
+  font-size: 25px;
+  text-transform: uppercase;
+}
+/* More From Us */
+
+.sectitle {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.sectitle h2 {
+  font-size: 45px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  position: relative;
+  padding-bottom: 15px;
+}
+.sectitle h2::after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  background-color: #fb5200;
+  width: 70px;
+  border-bottom: 4px solid #fb5200;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#BlogPost{
+  background-color: #F5F6F6;
+
+}
+
+.postWrapper {
+  overflow: hidden;
+}
+.singlepost:last-child {
+  margin-right: 0;
+}
+.singlepost {
+  width: 262px;
+  overflow: hidden;
+  float: left;
+  margin-right: 30px;
+}
+.postinfo h3 {
+	font-size: 20px;
+	text-transform: uppercase;
+}
+.sectitle p {
+	width: 600px;
+	margin: auto;
+}
+.singlepost img {
+  width: 100%;
+}
+
+.postimg {
+  margin-bottom: 20px;
+}
+.postinfo p {
+  margin-top: 10px;
+  line-height: 25px;
+}
+/* price plan */
+.tabillist {
+  /* overflow: hidden; */
+  display: table;
+  background-color: #FAFAFA;
+}
+.singletable:last-child {
+  margin-right: 0px;
+  box-shadow: 15px 0px 8px #f6f5f5;
+
+}
+.singletable:first-child {
+	box-shadow: -15px 0px 8px #f6f5f5;
+}
+
+.singletable {
+	width: 313px;
+	overflow: hidden;
+	float: left;
+	border: 1px solid #eae4e4;
+	padding: 15px 20px;
+	margin-right: 37px;
+}
+.singletable h3 {
+  font-size: 25px;
+}
+.singletable h1 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 8px;
+}
+.singletable h1 span {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 5px;
+}
+/* button */
+
+.singletable ul {
+  list-style: none;
+}
+.singletable ul li {
+  line-height: 40px;
+}
+.singletable ul li i {
+  font-size: 13px;
+  color: #FF5503;
+}
+#tableGetStarted {
+  background: #FF5503;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 14px;
+  margin: 20px 0;
+  border-radius: 4px;
+  transition: 0.5s;
+}
+#tableGetStarted:hover {
+  background: #252525;
+  cursor: pointer;
+}
+/* button */
+/* price plan */
+.idealeftimf{
+  background-image: url(http://themelazer.info/html/brigate/image/page/s02.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+/* Check out our latest Idea */
+
+#ideas {
+  overflow: hidden;
+}
+.idealeftimf {
+	width: 50%;
+	float: left;
+	height: 487px;
+}
+.idealeftimf img {
+	width: 100%;
+}
+.rightcontent {
+  width: 50%;
+  float: right;
+  overflow: hidden;
+  background: #222222;
+  color: white;
+}
+
+
+.rcontenttitle {
+  padding-bottom: 0px;
+  margin-bottom: 40px;
+  padding-top: 70px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.rcontenttitle h1 {
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+.rcontenticons {
+	padding: 0px 70px;
+	overflow: hidden;
+	padding-bottom: 70px;
+}
+.riconsingle {
+	width: 375px;
+	float: left;
+	overflow: hidden;
+	margin-bottom: 40px;
+}
+.ricon {
+  width: 70px;
+  float: left;
+  overflow: hidden;
+  font-size: 50px;
+  /*! color: #1e130e; */
+}
+.rtitle {
+  width: 295px;
+  float: right;
+  overflow: hidden;
+}
+.ricon i {
+  color: #fb5200;
+}
+.rtitle h2 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+.riconsingle.l2 {
+	margin-left: 300px;
+	margin-top: -95px;
+}
+
+
+.riconsingle.l1 {
+	margin-left: 300px;
+	margin-top: -103px;
+}
+/* Check out our latest Idea */
+
+
+/* meet with our team*/
+
+.teampersons {
+  overflow: hidden;
+}
+.singleperson {
+	width: 252px;
+	overflow: hidden;
+	float: left;
+	margin-right: 33px;
+}
+.singleperson:last-child {
+  margin-right: 0px;
+}
+.singleperson img {
+  width: 100%;
+  transition:0.3s;
+
+}
+.personinfo {
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
+.personinfo h3 {
+  font-size: 22px;
+}
+.personinfo p {
+  font-size: 13px;
+  margin-top: 7px;
+}
+
+
+.jointeam {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  margin-top: 57px;
+}
+.jointeam button {
+  border: none;
+  padding: 15px 30px;
+  color: white;
+  background: #FF5200;
+  border-radius: 5px;
+  font-size: 19px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition:0.5s;
+}
+.jointeam button:hover {
+  color: white;
+  background-color: #252525;
+
+}
+
+.personimg {
+  overflow: hidden;
+  position: relative;
+}
+.socialIcons {
+	width: 100%;
+	position: absolute;
+	bottom: 50px;
+	text-align: center;
+	left: 36px;
+}
+
+.socialIcons a i  {
+  width: 20px;
+  height: 20px;
+  display: block;
+  float: left;
+  overflow: hidden;
+  background-color: red;
+  display: grid;
+  place-items: center;
+  text-decoration: none;
+  border-radius: 100%;
+  padding: 8px;
+  color: white;
+  margin-left: 5px;
+  transition:0.5s;
+}
+.socialIcons .facebook{
+  background:#3a6bb1;
+  opacity:0;
+  transition:.90s;
+}
+.socialIcons .twitter{
+  background:#0ec8f5;
+  opacity:0;
+  transition:.70s;
+}
+.socialIcons .google{
+  background:#f2623b;
+  opacity:0;
+  transition:.50s;
+}
+.socialIcons .linkdin{
+  background:#0094d3;
+  opacity:0;
+  transition:.30s;
+}
+
+.socialIcons a i:hover {
+	color: black;
+	background: white;
+}
+
+.singleperson:hover .socialIcons .facebook{
+  opacity:1;
+  transform:translateY(20px);
+}
+.singleperson:hover .socialIcons .twitter{
+  opacity:1;
+  transform:translateY(20px);
+}
+.singleperson:hover .socialIcons .google{
+  opacity:1;
+  transform:translateY(20px);
+}
+.singleperson:hover .socialIcons .linkdin{
+  opacity:1;
+  transform:translateY(20px);
+
+}
+.singleperson:hover .personimg img{
+  transform:scale(1.1);
+
+}
+.singleperson:hover{
+  cursor:pointer;
+}
+
+/* meet with our team*/
+/* Our Best Projects */
+#Projects{
+  background-color: #f5f6f6;
+}
+.projectsWrapper {
+  overflow: hidden;
+  column-count: 3;
+  
+}
+.ssingleproject {
+  width: 350px;
+  margin-right: 30px;
+}
+.ssingleproject:last-child {
+  margin-right: 0;
+}
+.ssingleproject img {
+  width: 100%;
+}
+.ssingleproject {
+	position: relative;
+	margin-bottom: 30px !important;
+	margin: auto;
+	overflow: hidden;
+	margin-right: 0px;
+}
+.projectinfo {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 30px 30px;
+	background: linear-gradient(to top,black,transparent 175px);
+}
+.projectmata h3 {
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.projectmata {
+  width: 280px;
+  color: white;
+}
+.projectmata a {
+	color: white;
+	margin-bottom: 10px;
+	display: block;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#\#LearnMore {
+  color: white;
+  font-weight: bold;
+  margin-top: 5px;
+  display: block;
+}
+#\#LearnMore i {
+  color: white;
+  font-size: 16px;
+  margin-top: 2px;
+}
+/* Our Best Projects */
+
+
+
